@@ -36,20 +36,13 @@
 		</dependency>
 
 		<!-- universe-id-generator 依赖 -->
-		<dependency>
-			<groupId>com.github.1576745517</groupId>
-			<artifactId>Universe</artifactId>
-			<version>1.0.0</version>
-			<classifier>universe-id-generator</classifier>
-		</dependency>
-
 		<!-- universe-mask 依赖 -->
-		<dependency>
+		<!--<dependency>
 			<groupId>com.github.1576745517</groupId>
 			<artifactId>Universe</artifactId>
 			<version>1.0.0</version>
-			<classifier>universe-mask</classifier>
-		</dependency>
+		</dependency>-->
+
 
 		<!-- Lombok -->
 		<dependency>
