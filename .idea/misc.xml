@@ -7,12 +7,12 @@
         <option value="$PROJECT_DIR$/universe-demo/pom.xml" />
         <option value="$PROJECT_DIR$/universe-id-generator/pom.xml" />
         <option value="$PROJECT_DIR$/universe-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/universe-mask/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/universe-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/universe-id-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/universe-parent/pom.xml" />
       </set>
     </option>
   </component>
