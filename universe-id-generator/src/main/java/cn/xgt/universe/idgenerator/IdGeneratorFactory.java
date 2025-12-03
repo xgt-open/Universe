@@ -6,8 +6,6 @@ package cn.xgt.universe.idgenerator;
  * @date 2025/11/5
  */
 
-import com.alibaba.fastjson.JSON;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +16,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.annotation.PostConstruct;
+
+import cn.hutool.json.JSONUtil;
 
 /**
  * @author XGT
@@ -38,7 +38,7 @@ public class IdGeneratorFactory {
 	public void init() {
 		// 自动注册所有 IdGenerator 类型的 Bean
 		Map<String, IdGenerator> generators = applicationContext.getBeansOfType(IdGenerator.class);
-		logger.info("generators:{}", JSON.toJSONString(generators));
+		logger.info("generators:{}", JSONUtil.toJsonStr(generators));
 		for (Map.Entry<String, IdGenerator> entry : generators.entrySet()) {
 			generatorMap.put(entry.getKey(), entry.getValue());
 		}
