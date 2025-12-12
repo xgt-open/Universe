@@ -9,6 +9,7 @@
         <module name="universe-demo" />
         <module name="universe-id-generator" />
         <module name="universe-mask" />
+        <module name="universe-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
