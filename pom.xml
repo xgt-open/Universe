@@ -13,7 +13,7 @@
 
 	<groupId>cn.xgt</groupId>
 	<artifactId>universe-parent</artifactId>
-	<version>1.0.8</version>
+	<version>1.0.9</version>
 	<packaging>pom</packaging>
 
 	<name>Universe Parent</name>
@@ -62,22 +62,22 @@
 			<dependency>
 				<groupId>cn.xgt</groupId>
 				<artifactId>universe-id-generator</artifactId>
-				<version>1.0.8</version>
+				<version>1.0.9</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.xgt</groupId>
 				<artifactId>universe-mask</artifactId>
-				<version>1.0.8</version>
+				<version>1.0.9</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.xgt</groupId>
 				<artifactId>universe-common</artifactId>
-				<version>1.0.8</version>
+				<version>1.0.9</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.xgt</groupId>
 				<artifactId>universe-all</artifactId>
-				<version>1.0.8</version>
+				<version>1.0.9</version>
 			</dependency>
 			<!-- 后续可能增加的其他功能模块，在此处添加版本管理 -->
 			<!--
