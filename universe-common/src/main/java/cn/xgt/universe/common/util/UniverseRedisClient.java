@@ -14,21 +14,21 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author XGT
- * @description RedisRepository:redis工具类
+ * @description UniverseRedisClient:redis工具类
  * @date 2025/12/12
  */
 @Slf4j
 @Component
-public class RedisRepository {
+public class UniverseRedisClient {
 
 	@Autowired
 	private StringRedisTemplate template;
 
-	public RedisRepository(StringRedisTemplate template) {
+	/*public RedisRepository(StringRedisTemplate template) {
 		this.template = template;
-	}
+	}*/
 
-	public RedisRepository() {
+	public UniverseRedisClient() {
 	}
 
 	public boolean set(String key, String value) {

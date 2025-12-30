@@ -33,7 +33,7 @@ public class UniverseTest {
 	 */
 	@AfterEach
 	public void printTestEndMessage(TestInfo testInfo) {
-		logger.info("===========================测试方法执行完成{}.{}==========================",
+		logger.info("===========================测试方法执行结束{}.{}==========================",
 				testInfo.getTestClass().map(Class::getSimpleName).orElse("Unknown"), testInfo.getDisplayName());
 	}
 }

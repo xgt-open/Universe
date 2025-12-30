@@ -44,14 +44,14 @@
 
 
 		<!-- universe-id-generator 依赖 -->
-		<dependency>
+		<!--<dependency>
 			<groupId>com.github.1576745517.Universe</groupId>
 			<artifactId>universe-id-generator</artifactId>
 			<version>1.0.8</version>
 			<scope>compile</scope>
 		</dependency>
 
-		<!-- universe-mask 依赖 -->
+		&lt;!&ndash; universe-mask 依赖 &ndash;&gt;
 		<dependency>
 			<groupId>com.github.1576745517.Universe</groupId>
 			<artifactId>universe-mask</artifactId>
@@ -59,13 +59,27 @@
 			<scope>compile</scope>
 		</dependency>
 
-		<!-- universe-mask 依赖 -->
+		&lt;!&ndash; universe-mask 依赖 &ndash;&gt;
 		<dependency>
 			<groupId>cn.xgt</groupId>
 			<artifactId>universe-common</artifactId>
 			<version>1.0.8</version>
 			<scope>compile</scope>
+		</dependency>-->
+
+		<!-- universe-id-generator 依赖 -->
+		<dependency>
+			<groupId>com.github.1576745517.Universe</groupId>
+			<artifactId>universe-all</artifactId>
+			<version>1.0.10</version>
 		</dependency>
+
+		<!--<dependency>
+			<groupId>cn.xgt</groupId>
+			<artifactId>universe-all</artifactId>
+			<version>1.0.9</version>
+			&lt;!&ndash;<scope>compile</scope>&ndash;&gt;
+		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

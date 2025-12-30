@@ -6,9 +6,33 @@ universe:
     default-key: id_generator_default
     expire-time: 0
 
-# Redis配置（ID生成器需要）
 spring:
+  application:
+    name: universe-demo
   redis:
-    host: localhost
-    port: 6379
+    # 使用 URI 方式（最简单，自动处理 SSL）
+    url: rediss://default:AeawAAIncDExMWQ5NjQ5YzY3ZWM0NjIzYTIyMjU4NzVmZmVhYTQ0ZHAxNTkwNTY@sound-condor-59056.upstash.io:6379
     database: 0
+    timeout: 3000ms
+    # 以下方式需要额外创建配置类手动启用 SSL
+#    host: sound-condor-59056.upstash.io
+#    port: 6379
+#    password: AeawAAIncDExMWQ5NjQ5YzY3ZWM0NjIzYTIyMjU4NzVmZmVhYTQ0ZHAxNTkwNTY  # 从 Upstash 控制台获取
+#    database: 0
+#    timeout: 3000ms
+  # Redis配置（Sentinel模式）
+  #  redis:
+  #    # Redis Master 密码（用于连接实际的Redis服务器）
+  #    password: password
+  #    # Sentinel 模式配置
+  #    sentinel:
+  #      # Sentinel 主节点名称
+  #      master: mymaster
+  #      # Sentinel 节点列表
+  #      nodes: redis-sentinel.test111:16379,redis-sentinel.test222:16379,redis-sentinel.test333:16379
+  #      # Sentinel 密码（如果 Sentinel 需要密码）
+  #      # password: password
+  #    # 数据库索引
+  #    database: 14
+  #    # 连接超时时间
+  #    timeout: 3000ms

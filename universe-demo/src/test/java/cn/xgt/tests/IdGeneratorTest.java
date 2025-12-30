@@ -40,5 +40,11 @@ public class IdGeneratorTest extends UniverseTest {
 		logger.info("================={}", idString);
 	}
 
+	@Test
+	public void getId3() {
+		String idString = redisIdGenerator.nextIdString();
+		logger.info("================={}", idString);
+	}
+
 
 }
