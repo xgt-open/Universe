@@ -6,18 +6,18 @@
 
 	<!-- 继承父 pom -->
 	<parent>
-		<groupId>io.github.xgt-open</groupId>
+		<groupId>io.github.xgt-lab</groupId>
 		<artifactId>universe-parent</artifactId>
-		<version>1.0.10</version>
+		<version>1.0.11</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<groupId>io.github.xgt-open</groupId>
+	<groupId>io.github.xgt-lab</groupId>
 	<artifactId>universe-common</artifactId>
 
 	<name>Universe Common</name>
 	<description>维护基础工具类、常量等</description>
-	<url>https://github.com/xgt-open/Universe</url>
+	<url>https://github.com/xgt-lab/Universe</url>
 
 	<properties>
 		<maven.compiler.source>8</maven.compiler.source>
@@ -106,15 +106,15 @@
 		<developer>
 			<name>XGT</name>
 			<email>1576745517@qq.com</email>
-			<organization>XGT Open</organization>
-			<organizationUrl>https://github.com/xgt-open</organizationUrl>
+			<organization>XGT Lab</organization>
+			<organizationUrl>https://github.com/xgt-lab</organizationUrl>
 		</developer>
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/xgt-open/Universe.git</connection>
-		<developerConnection>scm:git:ssh://github.com/xgt-open/Universe.git</developerConnection>
-		<url>https://github.com/xgt-open/Universe</url>
+		<connection>scm:git:git://github.com/xgt-lab/Universe.git</connection>
+		<developerConnection>scm:git:ssh://github.com/xgt-lab/Universe.git</developerConnection>
+		<url>https://github.com/xgt-lab/Universe</url>
 		<tag>HEAD</tag>
 	</scm>
 

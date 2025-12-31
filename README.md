@@ -11,7 +11,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.18-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![Maven](https://img.shields.io/badge/Maven-3.6+-red.svg)](https://maven.apache.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![JitPack](https://jitpack.io/v/xgt-open/Universe.svg)](https://jitpack.io/#xgt-open/Universe)
+[![JitPack](https://jitpack.io/v/xgt-lab/Universe.svg)](https://jitpack.io/#xgt-lab/Universe)
 
 [功能特性](#-功能特性) • [快速开始](#-快速开始) • [使用文档](#-使用文档) • [示例代码](#-示例代码) • [更新日志](#-更新日志)
 
@@ -74,16 +74,16 @@
 <dependencies>
     <!-- ID 生成器 -->
     <dependency>
-        <groupId>com.github.xgt-open.Universe</groupId>
+        <groupId>com.github.xgt-lab.Universe</groupId>
         <artifactId>universe-id-generator</artifactId>
-        <version>1.0.8</version>
+        <version>1.0.11</version>
     </dependency>
     
     <!-- 数据脱敏工具 -->
     <dependency>
-        <groupId>com.github.xgt-open.Universe</groupId>
+        <groupId>com.github.xgt-lab.Universe</groupId>
         <artifactId>universe-mask</artifactId>
-        <version>1.0.8</version>
+        <version>1.0.11</version>
     </dependency>
 </dependencies>
 ```
@@ -91,7 +91,7 @@
 #### 方式二：本地安装
 
 ```bash
-git clone https://github.com/xgt-open/Universe.git
+git clone https://github.com/xgt-lab/Universe.git
 cd Universe
 mvn clean install
 ```
@@ -103,13 +103,13 @@ mvn clean install
     <dependency>
         <groupId>cn.xgt</groupId>
         <artifactId>universe-id-generator</artifactId>
-        <version>1.0.8</version>
+        <version>1.0.11</version>
     </dependency>
     
     <dependency>
         <groupId>cn.xgt</groupId>
         <artifactId>universe-mask</artifactId>
-        <version>1.0.8</version>
+        <version>1.0.11</version>
     </dependency>
 </dependencies>
 ```
@@ -339,9 +339,9 @@ public class UserController {
 
 | 模块 | 说明 | 版本 |
 |------|------|------|
-| `universe-common` | 公共工具模块，包含 Redis 工具等 | 1.0.8 |
-| `universe-id-generator` | 分布式ID生成器 | 1.0.8 |
-| `universe-mask` | 数据脱敏工具 | 1.0.8 |
+| `universe-common` | 公共工具模块，包含 Redis 工具等 | 1.0.11 |
+| `universe-id-generator` | 分布式ID生成器 | 1.0.11 |
+| `universe-mask` | 数据脱敏工具 | 1.0.11 |
 | `universe-demo` | 使用示例和演示代码 | - |
 
 ---
@@ -462,12 +462,12 @@ A: 确保 Redis 服务正常运行，检查配置的 host、port、password 是�
 
 ## 📝 更新日志
 
-### v1.0.8 (最新)
+### v1.0.11 (最新)
 - ✅ 优化依赖管理，修复 JitPack 构建问题
 - ✅ 完善文档和示例代码
 - ✅ 改进自动配置机制
 
-### v1.0.7
+### v1.0.11
 - ✅ 修复 `universe-common` 缺少 Spring Boot 依赖的问题
 - ✅ 添加父 POM 依赖管理
 
@@ -488,7 +488,7 @@ A: 确保 Redis 服务正常运行，检查配置的 host、port、password 是�
 
 **XGT**
 
-- GitHub: [@xgt-open](https://github.com/xgt-open)
+- GitHub: [@xgt-lab](https://github.com/xgt-lab)
 
 ---
 

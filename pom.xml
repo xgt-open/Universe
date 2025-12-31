@@ -11,14 +11,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>io.github.xgt-open</groupId>
+	<groupId>io.github.xgt-lab</groupId>
 	<artifactId>universe-parent</artifactId>
-	<version>1.0.10</version>
+	<version>1.0.11</version>
 	<packaging>pom</packaging>
 
 	<name>Universe Parent</name>
 	<description>Universe Parent</description>
-	<url>https://github.com/xgt-open/Universe</url>
+	<url>https://github.com/xgt-lab/Universe</url>
 
 	<!-- 添加许可证信息 -->
 	<licenses>
@@ -34,16 +34,16 @@
 		<developer>
 			<name>XGT</name>
 			<email>1576745517@qq.com</email>
-			<organization>XGT Open</organization>
-			<organizationUrl>https://github.com/xgt-open</organizationUrl>
+			<organization>XGT Lab</organization>
+			<organizationUrl>https://github.com/xgt-lab</organizationUrl>
 		</developer>
 	</developers>
 
 	<!-- SCM信息，JitPack需要此配置 -->
 	<scm>
-		<connection>scm:git:git://github.com/xgt-open/Universe.git</connection>
-		<developerConnection>scm:git:ssh://github.com/xgt-open/Universe.git</developerConnection>
-		<url>https://github.com/xgt-open/Universe</url>
+		<connection>scm:git:git://github.com/xgt-lab/Universe.git</connection>
+		<developerConnection>scm:git:ssh://github.com/xgt-lab/Universe.git</developerConnection>
+		<url>https://github.com/xgt-lab/Universe</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -84,31 +84,31 @@
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>io.github.xgt-open</groupId>
+				<groupId>io.github.xgt-lab</groupId>
 				<artifactId>universe-id-generator</artifactId>
-				<version>1.0.10</version>
+				<version>1.0.11</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.xgt-open</groupId>
+				<groupId>io.github.xgt-lab</groupId>
 				<artifactId>universe-mask</artifactId>
-				<version>1.0.10</version>
+				<version>1.0.11</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.xgt-open</groupId>
+				<groupId>io.github.xgt-lab</groupId>
 				<artifactId>universe-common</artifactId>
-				<version>1.0.10</version>
+				<version>1.0.11</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.xgt-open</groupId>
+				<groupId>io.github.xgt-lab</groupId>
 				<artifactId>universe-all</artifactId>
-				<version>1.0.10</version>
+				<version>1.0.11</version>
 			</dependency>
 			<!-- 后续可能增加的其他功能模块，在此处添加版本管理 -->
 			<!--
 			<dependency>
-				<groupId>io.github.xgt-open</groupId>
+				<groupId>io.github.xgt-lab</groupId>
 				<artifactId>universe-other</artifactId>
-				<version>1.0.8</version>
+				<version>1.0.11</version>
 			</dependency>
 			-->
 		</dependencies>

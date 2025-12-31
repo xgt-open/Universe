@@ -6,24 +6,24 @@
 
 	<!-- 继承父 pom -->
 	<parent>
-		<groupId>io.github.xgt-open</groupId>
+		<groupId>io.github.xgt-lab</groupId>
 		<artifactId>universe-parent</artifactId>
-		<version>1.0.10</version>
+		<version>1.0.11</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<groupId>io.github.xgt-open</groupId>
+	<groupId>io.github.xgt-lab</groupId>
 	<artifactId>universe-id-generator</artifactId>
 	<packaging>jar</packaging>
 
 	<name>Universe ID Generator</name>
 	<description>分布式ID生成器工具,支持redis自定义、UUID、雪花等常用ID生成</description>
-	<url>https://github.com/xgt-open/Universe</url>
+	<url>https://github.com/xgt-lab/Universe</url>
 
 	<dependencies>
 
 		<dependency>
-			<groupId>io.github.xgt-open</groupId>
+			<groupId>io.github.xgt-lab</groupId>
 			<artifactId>universe-common</artifactId>
 			<!-- 版本由父 POM 的 dependencyManagement 管理 -->
 		</dependency>
@@ -41,15 +41,15 @@
 		<developer>
 			<name>XGT</name>
 			<email>1576745517@qq.com</email>
-			<organization>XGT Open</organization>
-			<organizationUrl>https://github.com/xgt-open</organizationUrl>
+			<organization>XGT Lab</organization>
+			<organizationUrl>https://github.com/xgt-lab</organizationUrl>
 		</developer>
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/xgt-open/Universe.git</connection>
-		<developerConnection>scm:git:ssh://github.com/xgt-open/Universe.git</developerConnection>
-		<url>https://github.com/xgt-open/Universe</url>
+		<connection>scm:git:git://github.com/xgt-lab/Universe.git</connection>
+		<developerConnection>scm:git:ssh://github.com/xgt-lab/Universe.git</developerConnection>
+		<url>https://github.com/xgt-lab/Universe</url>
 		<tag>HEAD</tag>
 	</scm>
 
