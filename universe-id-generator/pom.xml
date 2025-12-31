@@ -6,13 +6,13 @@
 
 	<!-- 继承父 pom -->
 	<parent>
-		<groupId>com.github.xgt-open</groupId>
+		<groupId>io.github.xgt-open</groupId>
 		<artifactId>universe-parent</artifactId>
 		<version>1.0.10</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.github.xgt-open</groupId>
+	<groupId>io.github.xgt-open</groupId>
 	<artifactId>universe-id-generator</artifactId>
 	<packaging>jar</packaging>
 
@@ -23,11 +23,90 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.github.xgt-open</groupId>
+			<groupId>io.github.xgt-open</groupId>
 			<artifactId>universe-common</artifactId>
 			<!-- 版本由父 POM 的 dependencyManagement 管理 -->
 		</dependency>
 	</dependencies>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>XGT</name>
+			<email>1576745517@qq.com</email>
+			<organization>XGT Open</organization>
+			<organizationUrl>https://github.com/xgt-open</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/xgt-open/Universe.git</connection>
+		<developerConnection>scm:git:ssh://github.com/xgt-open/Universe.git</developerConnection>
+		<url>https://github.com/xgt-open/Universe</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<build>
+		<plugins>
+			<!-- Source 插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- Javadoc 插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<charset>UTF-8</charset>
+					<docencoding>UTF-8</docencoding>
+					<additionalOptions>
+						<additionalOption>-Xdoclint:none</additionalOption>
+					</additionalOptions>
+				</configuration>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- GPG 签名插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sign</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 
 
 

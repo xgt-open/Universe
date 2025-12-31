@@ -12,7 +12,7 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>com.github.xgt-open</groupId>
+	<groupId>io.github.xgt-open</groupId>
 	<artifactId>universe-demo</artifactId>
 	<version>1.0.1</version>
 
@@ -45,7 +45,7 @@
 
 		<!-- universe-id-generator 依赖 -->
 		<!--<dependency>
-			<groupId>com.github.xgt-open.Universe</groupId>
+			<groupId>io.github.xgt-open.Universe</groupId>
 			<artifactId>universe-id-generator</artifactId>
 			<version>1.0.8</version>
 			<scope>compile</scope>
@@ -53,7 +53,7 @@
 
 		&lt;!&ndash; universe-mask 依赖 &ndash;&gt;
 		<dependency>
-			<groupId>com.github.xgt-open.Universe</groupId>
+			<groupId>io.github.xgt-open.Universe</groupId>
 			<artifactId>universe-mask</artifactId>
 			<version>1.0.8</version>
 			<scope>compile</scope>
@@ -61,7 +61,7 @@
 
 		&lt;!&ndash; universe-mask 依赖 &ndash;&gt;
 		<dependency>
-			<groupId>com.github.xgt-open</groupId>
+			<groupId>io.github.xgt-open</groupId>
 			<artifactId>universe-common</artifactId>
 			<version>1.0.8</version>
 			<scope>compile</scope>
@@ -69,13 +69,13 @@
 
 		<!-- universe-id-generator 依赖 -->
 		<dependency>
-			<groupId>com.github.xgt-open</groupId>
+			<groupId>io.github.xgt-open</groupId>
 			<artifactId>universe-all</artifactId>
 			<version>1.0.10</version>
 		</dependency>
 
 		<!--<dependency>
-			<groupId>com.github.xgt-open</groupId>
+			<groupId>io.github.xgt-open</groupId>
 			<artifactId>universe-all</artifactId>
 			<version>1.0.9</version>
 			&lt;!&ndash;<scope>compile</scope>&ndash;&gt;
